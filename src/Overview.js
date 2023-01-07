@@ -1,8 +1,16 @@
 import React from 'react'
+import { GiHamburgerMenu } from "react-icons/gi"
 
-const Overview = () => {
+const Overview = ({ changeActiveState }) => {
+
+    const onChangeActiveState = () => {
+        changeActiveState();
+    }
+
     return (
-        <div>Overview</div>
+        <div className='mx-[2rem] my-[3rem]'>
+            <div className="head"><GiHamburgerMenu className='cursor-pointer' onClick={onChangeActiveState} /></div>
+        </div>
     )
 }
 
