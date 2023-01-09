@@ -11,7 +11,7 @@ function App() {
   }
 
   return (
-    <div className="App min-h-screen w-full md:grid md:grid-cols-[20%_80%]">
+    <div className="App min-h-screen w-full lg:grid lg:grid-cols-[20%_80%]">
       <Nav isActive={isActive} changeActiveState={activeStateHandler} />
       <Overview changeActiveState={activeStateHandler} />
     </div>

@@ -13,7 +13,7 @@ const Nav = ({ isActive, }) => {
     // }
 
     return (
-        <div className={`bg-slate-200 fixed top-0 ${isActive ? "left-0" : "-left-[130%]"} bottom-0 w-[70vw] md:left-0 md:relative md:w-[100%] transition-all duration-500 ease-in-out`}>
+        <div className={`bg-slate-200 z-50 fixed top-0 ${isActive ? "left-0" : "-left-[130%]"} bottom-0 w-[70vw] lg:left-0 lg:relative lg:w-[100%] transition-all duration-500 ease-in-out`}>
             <div className="head p-12">
                 <h2 className='text-2xl text-gray-800 font-bold'>Business Plan</h2>
             </div>
