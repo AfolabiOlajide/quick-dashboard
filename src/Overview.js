@@ -59,7 +59,7 @@ const Overview = ({ changeActiveState }) => {
                         </div>
                         <div className="cards flex flex-col md:grid md:grid-cols-4 gap-3">
                             <div className="card">
-                                <div className="card-details relative bg-green-600 text-white font-bold text-2xl rounded-md shadow-lg shadow-slate-200 p-2 pb-12 mb-2">
+                                <div className="card-details relative bg-green-600 text-white font-bold text-2xl rounded-md white-box-shadow p-2 pb-12 mb-2">
                                     <div className="icon absolute top-2 right-2 cursor-pointer text-sm"><FiLock /></div>
                                     <div className="title text-center mb-8">Actual</div>
                                     <div className="rate text-center mb-1">1,100,000</div>
@@ -68,7 +68,7 @@ const Overview = ({ changeActiveState }) => {
                                 <div className="update text-slate-500 text-[1rem]">Last Updated by BP: 31/12/21</div>
                             </div>
                             <div className="card">
-                                <div className="card-details relative font-bold text-2xl rounded-md shadow-lg shadow-slate-200 p-2 pb-12 mb-2">
+                                <div className="card-details relative font-bold text-2xl rounded-md white-box-shadow p-2 pb-12 mb-2">
                                     <div className="icon absolute top-2 right-2 cursor-pointer text-sm"><BsPencil /></div>
                                     <div className="title text-center mb-8">Actual</div>
                                     <div className="rate text-center mb-1">1,100,000</div>
@@ -77,7 +77,7 @@ const Overview = ({ changeActiveState }) => {
                                 <div className="update text-slate-500 text-[1rem]">Last Updated by BP: 31/12/21</div>
                             </div>
                             <div className="card">
-                                <div className="card-details relative font-bold text-2xl rounded-md shadow-lg shadow-slate-200 p-2 pb-12 mb-2">
+                                <div className="card-details relative font-bold text-2xl rounded-md white-box-shadow p-2 pb-12 mb-2">
                                     <div className="icon absolute top-2 right-2 cursor-pointer text-sm"><BsPencil /></div>
                                     <div className="title text-center mb-8">Actual</div>
                                     <div className="rate text-center mb-1">1,100,000</div>
@@ -86,7 +86,7 @@ const Overview = ({ changeActiveState }) => {
                                 <div className="update text-slate-500 text-[1rem]">Last Updated by BP: 31/12/21</div>
                             </div>
                             <div className="card">
-                                <div className="card-details flex items-center justify-center font-bold text-2xl rounded-md shadow-lg shadow-slate-200 py-[4rem] mb-2">
+                                <div className="card-details flex items-center justify-center font-bold text-2xl rounded-md white-box-shadow py-[4rem] mb-2">
                                     <div className="flex flex-col items-center justify-center text-slate-400">
                                         <BsPlusLg />
                                         <p>Forecast</p>
