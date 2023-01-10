@@ -30,7 +30,7 @@ const Overview = ({ changeActiveState }) => {
                 </div>
             </div>
             {/* operating revenu */}
-            <div className="my-1 shadow-md shadow-slate-200 p-4 rounded-md">
+            <div className="white-box-shadow my-1 p-4 rounded-md">
                 <h2 className="text-gray-800 text-[1rem] md:text-xl font-bold mb-4">Operating Revenue:</h2>
                 <div className="flex flex-col-reverse md:grid md:grid-cols-[80%_18%] gap-4">
                     {/* first */}
